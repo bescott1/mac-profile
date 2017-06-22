@@ -80,7 +80,7 @@ alias DT='tee ~/Desktop/terminalOut.txt'    # DT:           Pipe content to file
 alias lr='ls -R | grep ":$" | sed -e '\''s/:$//'\'' -e '\''s/[^-][^\/]*\//--/g'\'' -e '\''s/^/   /'\'' -e '\''s/-/|/'\'' | less'
 
 # Use MacVim instead of vim
-alias vim=/usr/local/Cellar/macvim/7.4-76/MacVim.app/Contents/MacOS/Vim
+# alias vim=/usr/local/Cellar/macvim/7.4-76/MacVim.app/Contents/MacOS/Vim
 alias vi=vim
 
 # Make git log better
