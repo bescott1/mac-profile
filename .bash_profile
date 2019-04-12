@@ -1,15 +1,8 @@
-# Ippon specific alias
-alias sshServer='ssh ippon@10.1.10.10'
-
-
 ## git autocompletion:
 # Run this command first: curl https://raw.githubusercontent.com/git/git/master/contrib/completion/git-completion.bash -o ~/.git-completion.bash
 #
-if [ -f ~/.git-completion.bash ]; then
-      . ~/.git-completion.bash
-fi
+ [ -f /usr/local/etc/bash_completion ] && . /usr/local/etc/bash_completion
 
-export PATH="$PATH:$HOME/.config/yarn/global/node_modules/.bin"
 #  ---------------------------------------------------------------------------
 #
 #  Description:  This file holds all my BASH configurations and aliases
@@ -210,16 +203,3 @@ alias showBlocked='sudo ipfw list'                  # showBlocked:  All ipfw rul
     alias finderHideHidden='defaults write com.apple.finder ShowAllFiles FALSE'
 
 
-
-##
-# Your previous /Users/ben/.bash_profile file was backed up as /Users/ben/.bash_profile.macports-saved_2015-05-28_at_12:44:37
-##
-
-# MacPorts Installer addition on 2015-05-28_at_12:44:37: adding an appropriate PATH variable for use with MacPorts.
-export PATH="/opt/local/bin:/opt/local/sbin:$PATH"
-# Finished adapting your PATH environment variable for use with MacPorts.
-
-
-### Added by the Heroku Toolbelt
-export PATH="/usr/local/heroku/bin:$PATH"
-export GRADLE_HOME="/usr/local/Cellar/gradle/2.9"
