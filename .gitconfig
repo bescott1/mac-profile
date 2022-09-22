@@ -20,6 +20,9 @@
 	required = true
 [merge]
 	tool = meldclear
+[pager]
+	branch = false
+	
 [pull]
 	rebase = true
 [rerere]
