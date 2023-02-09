@@ -7,7 +7,7 @@
 	uncommit = reset --soft HEAD^
 [user]
 	name = Ben Scott
-	email = bscott@ipponusa.com
+	email = ben@hopdrive.com
 [branch]
 	autosetuprebase = always
 [credential]
